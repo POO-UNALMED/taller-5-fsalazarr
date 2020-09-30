@@ -1,21 +1,8 @@
 package test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import gestion.*;
+import zooAnimales.*;
 
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
-
-import gestion.Zona;
-import gestion.Zoologico;
-import zooAnimales.Anfibio;
-import zooAnimales.Ave;
-import zooAnimales.Mamifero;
-import zooAnimales.Pez;
-import zooAnimales.Reptil;
-
-@TestMethodOrder(MethodOrderer.Alphanumeric.class)
 public class TestCantidades {
 	
 	public static Zoologico zoo = new Zoologico();
